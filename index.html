@@ -18,90 +18,117 @@
 <body>
 
   <header class="hero">
-    <nav class="nav">
-      <img src="./images/logo.svg" alt="Loopstudios" class="logo">
-      <img src="./images/icon-hamburger.svg" class="nav__icon-hamburger" aria-hidden="true">
-      <div class="nav-enlaces">
-        <a href="#">About</a>
-        <a href="#">Careers</a>
-        <a href="#">Events</a>
-        <a href="#">Products</a>
-        <a href="#">Support</a>
+    <div class="contenedor">
+      <nav class="nav">
+        <img src="./images/logo.svg" alt="Loopstudios" class="logo">
+        <img src="./images/icon-hamburger.svg" class="con-hamburger" aria-hidden="true">
+        <div class="nav__enlace">
+          <ul class="nav__enlace-box">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero__texto">
+        <h1 class="titulo texto">Immersive experiences that deliver</h1>
       </div>
-    </nav>
-    <div class="hero__texto">
-      <h1 class="texto">Immersive experiences that deliver</h1>
     </div>
   </header>
   <main class="main">
-    <section class="section section__interactive-vr">
-      <div class="section-contenedor">
-        <img src="./images/mobile/image-interactive.jpg" aria-hidden="true" class="img">
-      </div>
-      <div class="section-texto">
-        <h2 class="section-titulo">The leader in interactive VR</h2>
-        <p class="text">Founded in 2011, Loopstudios has been producing world-class virtual reality 
-          projects for some of the best companies around the globe. Our award-winning 
-          creations have transformed businesses through digital experiences that bind 
-          to their brand.</p>
-      </div>
-    </section>
-    <section class="section section-our-creations">
-        <h2 class="section-titulo">Our creations</h2>
-      <div class="contenedor-imagenes">
-        <div class="imagenes image-deep-earth">
-          <h2 class="imagenes-info">Deep earth</h2>
-        </div>
-        <div class="imagenes image-night-arcade">
-          <h2 class="imagenes-info">Night arcade</h2>
-        </div>
-        <div class="imagenes image-soccer-team">
-          <h2 class="imagenes-info">Soccer team VR</h2>
-        </div>
-        <div class="imagenes image-grid">
-          <h2 class="imagenes-info imagenes-info-edit">The grid</h2>
-        </div>
-        <div class="imagenes image-from-above">
-          <h2 class="imagenes-info">From up above VR</h2>
-        </div>
-        <div class="imagenes image-pocket-borealis">
-          <h2 class="imagenes-info">Pocket borealis</h2>
-        </div>
-        <div class="imagenes image-curiosity">
-          <h2 class="imagenes-info">The curiosity</h2>
-        </div>
-        <div class="imagenes image-image-fisheye">
-          <h2 class="imagenes-info">Make it fisheye</h2>
-        </div>
-      </div>
-      <div class="contenedor-btn">
-        <button class="btn">See all</button>
-      </div>
-    </section>
+    <div class="contenedor contenedor-section">
+        <section class="section-interactive">
+            <img src="./images/mobile/image-interactive.jpg" alt="" class="img">
+          <div class="texto">
+            <h2 class="titulo titulo-center">The leader in interactive VR</h2>
+            <p class="parrafo">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+              projects for some of the best companies around the globe. Our award-winning 
+              creations have transformed businesses through digital experiences that bind 
+              to their brand.</p>
+          </div>
+        </section>
+        <section class="section-creations">
+          <h2 class="titulo titulo-center">Our creations</h2>
+          <div class="contenedor-imagenes">
+            <div class="card">
+              <img src="./images/mobile/image-deep-earth.jpg" alt="" class="img">
+                <h2 class="titulo card__texto">Deep earth</h2>
+            </div>
+            <div class="card">
+              <img src="./images/mobile/image-night-arcade.jpg" alt="" class="img">
+                <h2 class="titulo card__texto">Night arcade</h2>
+            </div>
+            <div class="card">
+              <img src="./images/mobile/image-soccer-team.jpg" alt="" class="img">
+                <h2 class="titulo card__texto">Soccer team VR</h2>
+            </div>
+            <div class="card">
+              <img src="./images/mobile/image-grid.jpg" alt="" class="img">
+                <h2 class="titulo card__texto card__texto-min">The grid</h2>
+            </div>
+            <div class="card">
+              <img src="./images/mobile/image-from-above.jpg" alt="" class="img">
+                <h2 class="titulo card__texto">From up above VR</h2>
+            </div>
+            <div class="card">
+              <img src="./images/mobile/image-pocket-borealis.jpg" alt="" class="img">
+                <h2 class="titulo card__texto">Pocket borealis</h2>
+            </div>
+            <div class="card">
+              <img src="./images/mobile/image-curiosity.jpg" alt="" class="img">
+              <h2 class="titulo card__texto">The curiosity</h2>
+            </div>
+            <div class="card">
+              <img src="./images/mobile/image-fisheye.jpg" alt="" class="img">
+              <h2 class="titulo card__texto">Make it fisheye</h2>
+            </div>
+          </div>
+          <button class="boton">See all</button>
+        </section>
+    </div>
   </main>
+  <footer class="footer">
+    <div class="contenedor footer-contenedor">
+      <div class="footer__enlaces">
+        <img src="./images/logo.svg" alt="Loopstudios" class="logo">
+        <ul class="footer__enlaces-box">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="footer__redes">
+        <ul class="footer__redes-box">
+          <li><img src="./images/icon-facebook.svg" aria-hidden="true"></li>
+          <li><img src="./images/icon-twitter.svg" aria-hidden="true"></li>
+          <li><img src="./images/icon-pinterest.svg" aria-hidden="true"></li>
+          <li><img src="./images/icon-instagram.svg" aria-hidden="true"></li>
+        </ul>
+        <p class="parrafo copy">© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- 
   <footer class="footer">
     <div class="footeer__enlaces">
       <img src="./images/logo.svg" alt="Loopstudios" class="footer-logo">
       <ul class="lista">
-        <li class="lista-item"><a href="#" class="lista-item__link">About</a></li>
-        <li class="lista-item"><a href="#" class="lista-item__link">Careers</a></li>
-        <li class="lista-item"><a href="#" class="lista-item__link">Events</a></li>
-        <li class="lista-item"><a href="#" class="lista-item__link">Products</a></li>
-        <li class="lista-item"><a href="#" class="lista-item__link">Support</a></li>
+        
       </ul>
     </div>
     <div class="footer__redes">
       <ul class="lista">
-        <li class="lista-item__redes"><img src="./images/icon-facebook.svg" aria-hidden="true"></li>
-        <li class="lista-item__redes"><img src="./images/icon-twitter.svg" aria-hidden="true"></li>
-        <li class="lista-item__redes"><img src="./images/icon-pinterest.svg" aria-hidden="true"></li>
-        <li class="lista-item__redes"><img src="./images/icon-instagram.svg" aria-hidden="true"></li>
+        
       </ul>
-      <p class="copy">© 2021 Loopstudios. All rights reserved.</p>
     </div>
   </footer>
 
-  <script src="./js/script.js"></script>
+  <script src="./js/script.js"></script> -->
 
 </body>
 </html>
