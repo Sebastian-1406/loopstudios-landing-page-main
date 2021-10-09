@@ -11,3 +11,6 @@ iconHamburger.addEventListener("click", () => {
         iconHamburger.src = "./images/icon-hamburger.svg";
     }
 })
+
+ScrollReveal().reveal('.card', {origin:'top', distance: '-100px'});
+ScrollReveal().reveal('.contenedor', { delay: 300 });
